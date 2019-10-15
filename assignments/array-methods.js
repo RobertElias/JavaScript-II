@@ -115,7 +115,7 @@ console.log(`The following is the emails and company list: ${companyInfo}`);
 
 // Problem 2
 //The event coordinator would like to have all company names in upperCase
-const company = runners.map(function(items){
+const company = runners.map(function(items) {
   return items.company_name.toUpperCase();
 
 });
