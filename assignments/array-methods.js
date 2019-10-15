@@ -63,7 +63,7 @@ const runners = [
 let fullNames = [];
 
 runners.forEach(function(items){
-  return fullNames.push(`${items.last_name} ${items.shirt_size}`);
+  return fullNames.push(`${items.first_name} ${items.last_name} ${items.shirt_size}`);
 });
 console.log(fullNames);
 
